@@ -4,9 +4,22 @@
   
     
     <entry>
+      <title>第一篇文章</title>
+      <link href="/2023/09/03/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/"/>
+      <url>/2023/09/03/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</url>
+      
+        <content type="html"><![CDATA[<p>欢迎来到我的博客，这里就是我先搭建好的，基本功能也差不多，走走看吧！</p><h2 id="个人经历"><a href="#个人经历" class="headerlink" title="个人经历"></a>个人经历</h2><h3 id="我的个人简历"><a href="#我的个人简历" class="headerlink" title="我的个人简历"></a>我的个人简历</h3><h3 id="现在还没毕业，也没啥真正的实习经历"><a href="#现在还没毕业，也没啥真正的实习经历" class="headerlink" title="现在还没毕业，也没啥真正的实习经历"></a>现在还没毕业，也没啥真正的实习经历</h3><p>那就说说搭建出现的出题：GITHUB部署先到本地，然后才上传成功</p><h2 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>第三篇文章</title>
-      <link href="/2023/09/03/%E7%AC%AC%E4%B8%89%E7%AF%87%E6%96%87%E7%AB%A0%20/"/>
-      <url>/2023/09/03/%E7%AC%AC%E4%B8%89%E7%AF%87%E6%96%87%E7%AB%A0%20/</url>
+      <link href="/2023/09/03/%E7%AC%AC%E4%B8%89%E7%AF%87%E5%8D%9A%E5%AE%A2/%E7%AC%AC%E4%B8%89%E7%AF%87%E5%8D%9A%E5%AE%A2/"/>
+      <url>/2023/09/03/%E7%AC%AC%E4%B8%89%E7%AF%87%E5%8D%9A%E5%AE%A2/%E7%AC%AC%E4%B8%89%E7%AF%87%E5%8D%9A%E5%AE%A2/</url>
       
         <content type="html"><![CDATA[<p>架构漫谈阅读感受</p><h3 id="性能篇"><a href="#性能篇" class="headerlink" title="性能篇"></a>性能篇</h3><p>性能可以进一步分为易理解性:软件产品使用客户能理解软件是否适合以及如何能将软件用于特定的任务和使用环境的能力；易学性:软件产品使用户能学习其应用的能力；易操作性:软件产品使用户能够操作和控制他的能力；吸引性:软件产品吸引用户的能力；易用性的已重新:软件产品遵循与易用性相关的标准,约定,风格指南或法规的能力。</p><p>易用性涉及用户完成任务的容易程度以及所提供的用户支持类型。易用性可以划分为几个模块：学习系统功能、有效使用系统、最小化错误影响、系统适应用户需求和提高用户信息和满意度。易用性场景分析的响应得出系统可以提供一下一个或多个响应：支持“学习系统功能”——帮助系统对上下文敏感；用户熟悉界面；界面在不熟悉的上下文中使用支持“有效使用系统”——数据&#x2F;命令的集合；重用已经输入的数据&#x2F;命令；支持屏幕内的高效导航；具有一致操作的清晰视图；全面的搜索；最小化错误的影响：撤销、取消、从系统故障恢复、识别并纠正用户错误、检索忘记的密码，验证系统资源，支持“适应系统”——定制化、国际化，支持“感觉舒服”——显示系统状态、按照用户的步调工作。</p>]]></content>
       
@@ -18,23 +31,10 @@
     
     <entry>
       <title>第二篇文章</title>
-      <link href="/2023/09/03/%E7%AC%AC%E4%BA%8C%E7%AF%87%E6%96%87%E7%AB%A0%20/"/>
-      <url>/2023/09/03/%E7%AC%AC%E4%BA%8C%E7%AF%87%E6%96%87%E7%AB%A0%20/</url>
+      <link href="/2023/09/03/%E7%AC%AC%E4%BA%8C%E7%AF%87%E6%96%87%E7%AB%A0/%E7%AC%AC%E4%BA%8C%E7%AF%87%E6%96%87%E7%AB%A0/"/>
+      <url>/2023/09/03/%E7%AC%AC%E4%BA%8C%E7%AF%87%E6%96%87%E7%AB%A0/%E7%AC%AC%E4%BA%8C%E7%AF%87%E6%96%87%E7%AB%A0/</url>
       
         <content type="html"><![CDATA[<p>BUTTERFLY修改个人主题</p><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">menu:</span></span><br><span class="line">  <span class="string">首页:</span> <span class="string">/</span> <span class="string">||</span> <span class="string">fas</span> <span class="string">fa-home</span></span><br><span class="line">  <span class="string">时间轴:</span> <span class="string">/archives/</span> <span class="string">||</span> <span class="string">fas</span> <span class="string">fa-archive</span></span><br><span class="line">  <span class="string">标签:</span> <span class="string">/tags/</span> <span class="string">||</span> <span class="string">fas</span> <span class="string">fa-tags</span></span><br><span class="line">  <span class="string">分类:</span> <span class="string">/categories/</span> <span class="string">||</span> <span class="string">fas</span> <span class="string">fa-folder-open</span></span><br><span class="line">  <span class="string">清单||fa</span> <span class="attr">fa-heartbeat:</span></span><br><span class="line">    <span class="string">音乐:</span> <span class="string">/music/</span> <span class="string">||</span> <span class="string">fas</span> <span class="string">fa-music</span></span><br><span class="line">    <span class="string">照片:</span> <span class="string">/Gallery/</span> <span class="string">||</span> <span class="string">fas</span> <span class="string">fa-images</span></span><br><span class="line">    <span class="string">电影:</span> <span class="string">/movies/</span> <span class="string">||</span> <span class="string">fas</span> <span class="string">fa-video</span></span><br><span class="line">  <span class="string">友链:</span> <span class="string">/link/</span> <span class="string">||</span> <span class="string">fas</span> <span class="string">fa-link</span></span><br><span class="line">  <span class="string">关于:</span> <span class="string">/about/</span> <span class="string">||</span> <span class="string">fas</span> <span class="string">fa-heart</span></span><br></pre></td></tr></table></figure><h2 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>第一篇文章</title>
-      <link href="/2023/09/02/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/"/>
-      <url>/2023/09/02/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</url>
-      
-        <content type="html"><![CDATA[<p>欢迎来到我的博客，这里就是我先搭建好的，基本功能也差不多，走走看吧！</p><h2 id="个人经历"><a href="#个人经历" class="headerlink" title="个人经历"></a>个人经历</h2><h3 id="我的个人简历"><a href="#我的个人简历" class="headerlink" title="我的个人简历"></a>我的个人简历</h3><h3 id="现在还没毕业，也没啥真正的实习经历"><a href="#现在还没毕业，也没啥真正的实习经历" class="headerlink" title="现在还没毕业，也没啥真正的实习经历"></a>现在还没毕业，也没啥真正的实习经历</h3><p>那就说说搭建出现的出题：GITHUB部署先到本地，然后才上传成功</p><h2 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>]]></content>
       
       
       
@@ -57,9 +57,9 @@
     
     
     <entry>
-      <title>tags</title>
-      <link href="/tags/index.html"/>
-      <url>/tags/index.html</url>
+      <title>音乐</title>
+      <link href="/music/index.html"/>
+      <url>/music/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -68,9 +68,9 @@
     
     
     <entry>
-      <title>音乐</title>
-      <link href="/music/index.html"/>
-      <url>/music/index.html</url>
+      <title>tags</title>
+      <link href="/tags/index.html"/>
+      <url>/tags/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
